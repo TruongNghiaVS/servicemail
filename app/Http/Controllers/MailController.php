@@ -43,7 +43,7 @@ class MailController extends Controller
         Mail::send('mailMember', $info, function ($message)use($info)
         {
              $message->to($info["email"],$info["email"])
-                     ->subject('Kích hoạt tài khoản mới trên Jobvieclam');
+                     ->subject('Thông báo tạo tài khoản thành công');
              $message->from('nghiait06@gmail.com','jobvieclam.vn');
         });
         return true;

@@ -13,6 +13,6 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
-       "sendMailNotification", "sendMailRegisterTD","pushMailResetPassword","sendMailRegigerUV"
+       "sendMailNotification","sendMailRegisterUV", "sendMailRegisterTD","pushMailResetPassword","sendMailRegigerUV"
     ];
 }

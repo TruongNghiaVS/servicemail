@@ -40,7 +40,7 @@ này "Không phải thư quảng cáo / spam"
 <p>Chúc mừng bạn đã đăng kí tài khoản thành công tại Jobvieclam.vn.</p>
 <ul>
     <li>
-        Email đăng ký: <strong> {{$email}}</strong>
+        Email đăng nhập: <strong> {{$email}}</strong>
     </li>
     <li>
         Mật khẩu: &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  <strong>********</strong>
