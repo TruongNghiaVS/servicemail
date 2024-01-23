@@ -45,7 +45,7 @@ này "Không phải thư quảng cáo / spam"
 
 
 <p>Vui lòng click vào <a class="bluecolor" href="http://tuyendung.jobvieclam.com:9999/employer/forgotpassword?code={{$codeGen}}">đây</a> để tạo mật khẩu mới. Hoặc copy đường link bên dưới dán vào thanh địa chỉ của trình duyệt:.</p>
-<a href="http://tuyendung.jobvieclam.com:9999/employer/forgotpassword?forgetpasswordLink={{$codeGen}}" class="bluecolor">http://tuyendung.jobvieclam.com:9999/employer/forgotpassword?code={{$codeGen}}</a>
+<a href="http://tuyendung.jobvieclam.com:9999/employer/forgotpassword?code={{$codeGen}}" class="bluecolor">http://tuyendung.jobvieclam.com:9999/employer/forgotpassword?code={{$codeGen}}</a>
 
 <p>Nếu không thực hiện các thao tác này thì mật khẩu vẫn giữ nguyên không thay đổi.</p>
 
