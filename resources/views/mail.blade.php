@@ -52,10 +52,10 @@ này "Không phải thư quảng cáo / spam"
 
 </ul>
 
-<p>Vui lòng click vào <a class="bluecolor" href="http://tuyendung.jobvieclam.com:9999/employers/active?code={{$codeGen}}">đây</a> để hoàn tất quá trình tạo tài khoản và bắt đầu Đăng Tuyển, Tìm Hồ Sơ Ứng Viên cũng như sử dụng các dịch vụ khác.</p>
+<p>Vui lòng click vào <a class="bluecolor" href="https://tuyendung.jobvieclam.com/employers/active?code={{$codeGen}}">đây</a> để hoàn tất quá trình tạo tài khoản và bắt đầu Đăng Tuyển, Tìm Hồ Sơ Ứng Viên cũng như sử dụng các dịch vụ khác.</p>
 
 <p>Hoặc copy đường link bên dưới và dán vào thanh địa chỉ của trình duyệt để kích hoạt tài khoản</p>
-<a href="http://tuyendung.jobvieclam.com:9999/employers/active?code={{$codeGen}}" class="bluecolor">http://tuyendung.jobvieclam.com:9999/employers/active?code={{$codeGen}}</a>
+<a href="https://tuyendung.jobvieclam.com/employers/active?code={{$codeGen}}" class="bluecolor">https://tuyendung.jobvieclam.com/employers/active?code={{$codeGen}}</a>
 <p>Lưu ý: Email kích hoạt này chỉ có giá trị trong vòng 7 ngày kể từ ngày đăng ký.</p>
 <p>Nếu có bất kỳ yêu cầu hoặc thắc mắc, vui lòng liên hệ Nhân viên Kinh doanh hoặc Phòng Dịch vụ Khách hàng của chúng tôi để được hỗ trợ nhanh nhất.</p>
 <p>Email: <a href = "mailto: contact@jobvieclam.com">contact@jobvieclam.com</a></p>

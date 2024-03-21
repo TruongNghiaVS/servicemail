@@ -22,7 +22,7 @@ class MailController extends Controller
         {
              $message->to($info["email"],$info["email"])
                      ->subject('Kích hoạt tài khoản mới trên Jobvieclam');
-             $message->from('nghiait06@gmail.com','jobvieclam.vn');
+            $message->from('noreply@jobvieclam.com');
         });
         return true;
     }
@@ -44,7 +44,7 @@ class MailController extends Controller
         {
              $message->to($info["email"],$info["email"])
                      ->subject('Thông báo tạo tài khoản thành công');
-             $message->from('nghiait06@gmail.com','jobvieclam.vn');
+                     $message->from('noreply@jobvieclam.com');
         });
         return true;
     }
