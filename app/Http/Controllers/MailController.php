@@ -13,15 +13,19 @@ class MailController extends Controller
     {
         $email = $request->input("emailTo");
         $codeGenerate = $request->input("code");
-        
+        $password = "xxxxxxxxxxxx";
+        if ($request->has('password')){
+            $password =  $request->input("password");
+        }
         $info =  array(
             "email"  => $email,
-            "codeGenerate" => $codeGenerate
+            "codeGenerate" => $codeGenerate,
+            "password"=>$password,
         );
         Mail::send('mail', $info, function ($message)use($info)
         {
              $message->to($info["email"],$info["email"])
-                     ->subject('Kích hoạt tài khoản mới trên Jobvieclam');
+                     ->subject('Thông báo: Xác nhận kích hoạt tài khoản tuyển dụng');
             $message->from('noreply@jobvieclam.com');
         });
         return true;
@@ -32,9 +36,14 @@ class MailController extends Controller
         $email = $request->input("emailTo");
       
         $fullName = $request->input("fullName");
-        
+        $password = "xxxxxxxxxxxx";
+
+        if ($request->has('password')){
+            $password =  $request->input("password");
+        }
         $info =  array(
             "email"  => $email,
+            "password"=>$password,
             "fullName"=>$fullName
            
         );
@@ -43,7 +52,7 @@ class MailController extends Controller
         Mail::send('mailMember', $info, function ($message)use($info)
         {
              $message->to($info["email"],$info["email"])
-                     ->subject('Thông báo tạo tài khoản thành công');
+                     ->subject('THÔNG BÁO: Tạo tài khoản thành công ');
                      $message->from('noreply@jobvieclam.com');
         });
         return true;

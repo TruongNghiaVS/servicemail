@@ -1,70 +1,139 @@
+@php
+    $email = $email;
+    $fullName = $fullName;
+    $password = $password;
+@endphp
 
-<style>
-        .red {
-            color:red;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        /* Reset styles */
+        body, p, h1, h2, h3, h4, h5, h6, ul, ol, li {
+            margin: 0;
+            padding: 0;
         }
-        .footer {
-            margin-top: 40px;
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
         }
-        .bluecolor{
-            color: rgb(0, 21, 255);
+        
+        .container {
+       
+            margin: 0 auto;
+            padding: 20px;
         }
-        span{
-            display: block;
-        }
+        
         .header {
+            text-align: start;
+            margin-bottom: 30px;
+     
+            align-items: center;
+           
+        }
+
+        .titleNotifySection {
+           
+        }
+        .titleNotify {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 17px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        h6 {
+          font-size: 16px !important;
+            color: #333;
          
-            text-align: center;
-            background: orange;
-            color: #ffffff ;
+            font-weight: 500;
         }
-        .bodyContent {
-            width: 600px;
-            margin:auto;
+       
+        .content p,.content div, .content span {
+             line-height: 160%;
+         }
+        
+        .footer {
+            text-align: start;
+            margin-top: 30px;
         }
-        .white{
-            color: #ffffff ;
+        .company-name {
+          color: #981B1E !important;
         }
-</style>
+        .text-center {
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
 
-   <div class ="bodyContent" >
-   <div class="header">
-Để email luôn được vào inbox, bạn vui lòng thêm <a class="white">support@jobvieclam.com</a> vào danh bạ hoặc đánh dấu email
-này "Không phải thư quảng cáo / spam"
-</div>
-    </br>
-    </br>
-<strong class="red">Kích Hoạt Tài Khoản Mới tại Jobvieclam.com</strong>
-<p>Chào bạn {{$fullName}}</p>
+<br/>
 
-<p>Chúc mừng bạn đã đăng kí tài khoản thành công tại Jobvieclam.vn.</p>
-<ul>
-    <li>
-        Email đăng nhập: <strong> {{$email}}</strong>
-    </li>
-    <li>
-        Mật khẩu: &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  <strong>********</strong>
-    </li>
+<div class="content">
+    <p>Chào bạn <strong> {{ $fullName }}</strong></p>
+    <p>Chúc mừng bạn đã tạo tài khoản thành công tại Jobvieclam.com.</p>
+    <p>Dưới đây là thông tin đăng nhập của bạn. Lưu ý rằng thông tin đăng nhập này là quan trọng và cần được bảo mật. Đừng chia sẻ thông tin này với bất kỳ ai khác:</p>
+    <div>
+      <strong>Mail Đăng Nhập: </strong> <span>{{ $email }}</span>
+    </div>
+    <div>
+      <strong>Mật khẩu:</strong> <span>{{ $password }}</span>
+    </div>
+  
+  
+    <p>Bây giờ, bạn có thể tận dụng các tính năng tìm kiếm việc làm để khám phá và ứng tuyển vào các vị trí phù hợp với nhu cầu và kỹ của bạn. Đồng thời, bạn cũng có thể cập nhật hồ sơ của mình để tăng cơ hội được nhà tuyển dụng chú ý.</p>
+    <p>Nếu bạn gặp bất kỳ vấn đề nào trong quá trình sử dụng hoặc có câu hỏi cần được giải đáp, vui lòng liên hệ với chúng tôi qua: </p>
 
-</ul>
-
-<p>Với tài khoản này, bạn có thể dễ dàng:</p>
-<ul>
- <li> Tạo hồ sơ trực tuyến giúp nhà tuyển dụng dễ dàng tìm thấy bạn.</<li>
- <li> Tạo thông báo việc làm để nhận công việc mới hàng tuần.</<li>
- <li> Tìm công việc phù hợp với bạn và ứng tuyển ngay.</<li>
- <li> Đọc bài viết Tư vấn nghề nghiệp.<li>
-</ul>
-
-<di class="footer">
-    <span>Trân trọng,</span><br>
-    <span>Phòng Dịch vụ Khách hàng</span><br>
-    <span>Jobvieclam.com</span>
+    <div>
+      <span>Email: </span> <a href="mailto:support@jobvieclam.com">Support@jobvieclam.com</a>
+    </div>
+    <div>
+      <span>Điện thoại: </span> <a href="tel:+(848) 3822 6060">(848) 3822 6060</a>
+    </div>
     
 </div>
+<div class="footer">
+  <p>Trân trọng,</p>
+  <p>Phòng Dịch vụ Khách hàng,</p>
+</div>
+
+<style>
+.colorsi{
+  color: #0070C0 ;
+}
+.sinature strong {
+  font-weight: 500;
+}
+.sinature .nameCompany {
+  font-weight: bold;
+  font-size: 14px;
+}
+.sinature p {
+  color: #222222;
+}
+
+.nameCompany{
+  color: #0070C0;
+}
+</style>
 
 
+----------------------------------------------------
+<div class ="sinature"> 
 
+  <span class="colorsi nameCompany">Vietstar Group Joint Stock Company </span></br>
+  <p> <strong class="colorsi"> Head office: </strong> Floor 2nd, GMA Building, 307/6 Nguyen Van Troi, Ward 1, Tan Binh District, HCMC.  </p>
+  <p> <strong class="colorsi"> Tel: </strong> (+84) 2871 000 555  </p>
+  <p> <strong class="colorsi"> Mobile: </strong>0866.823.799 – 028.7100555  </p>
+  <p> <strong class="colorsi"> Website: </strong> www.vietstargroup.vn  </p>
+  <img src ="https://jobvieclam.com/sinatureMail.jpg">
 
-
-    </div>
+</div>
+</body>
+</html>

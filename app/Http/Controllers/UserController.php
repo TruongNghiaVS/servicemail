@@ -29,8 +29,8 @@ class UserController extends Controller
         Mail::send($path, $info, function ($message)use($info)
         {
              $message->to($info["email"],$info["email"])
-                     ->subject('Cấp lại mật khẩu');
-             $message->from('nghiait06@gmail.com','jobvieclam.vn');
+             ->subject('Cấp lại mật khẩu cho tài khoản');
+             $message->from('noreply@jobvieclam.com');
         });
         return true;
     }
