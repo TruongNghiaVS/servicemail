@@ -17,8 +17,13 @@ class MailController extends Controller
         if ($request->has('password')){
             $password =  $request->input("password");
         }
+        $fullName = "";
+        if ($request->has('fullName')){
+            $fullName =  $request->input("fullName");
+        }
         $info =  array(
             "email"  => $email,
+            "fullName" =>  $fullName,
             "codeGenerate" => $codeGenerate,
             "password"=>$password,
         );
@@ -36,6 +41,8 @@ class MailController extends Controller
         $email = $request->input("emailTo");
       
         $fullName = $request->input("fullName");
+
+        
         $password = "xxxxxxxxxxxx";
 
         if ($request->has('password')){

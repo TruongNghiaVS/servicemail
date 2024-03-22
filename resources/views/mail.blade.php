@@ -131,7 +131,7 @@ này "Không phải thư quảng cáo / spam"
     <p>cảm ơn bạn đã đăng ký tài khoản tuyển dụng trên trang web tìm kiếm việc làm Jobvieclam.com. Để bắt đầu sử dụng các tính năng tuyển dụng, vui lòng kích hoạt tài khoản của mình bằng cách nhấp vào đường link dưới đây:</p>
     <p >
       Tên tài khoản công ty: <span class="company-name">
-      Công ty TNHH Tập Đoàn Vietstar
+     {{ $fullName }}
     </span> </p>
     
     <p>Link kích hoạt: <a href="https://tuyendung.jobvieclam.com/employers/active?code={{$codeGen}}"  rel="noopener noreferrer">https://tuyendung.jobvieclam.com/employers/active?code={{$codeGen}}</a></p>
