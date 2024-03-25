@@ -51,7 +51,7 @@ $fullName = $fullName;
 <p>Đây là email tự động, vui lòng không trả lời email này </p>
 <p>Nếu có bất kỳ yêu cầu hoặc thắc mắc, vui lòng liên hệ Nhân viên Kinh doanh hoặc Phòng Dịch vụ Khách hàng của chúng tôi để được hỗ trợ nhanh nhất.</p>
 <p>Email: <a href = "mailto: contact@jobvieclam.com">contact@jobvieclam.com</a></p>
-<p>Điện thoại: (848) 3822 6060</p>
+<p>Điện thoại: 028 71000 555</p>
 
 <div class="footer">
     <span>Trân trọng,</span>

@@ -35,7 +35,7 @@ này "Không phải thư quảng cáo / spam"
 <p>Lưu ý: Email kích hoạt này chỉ có giá trị trong vòng 7 ngày kể từ ngày đăng ký.</p>
 <p>Nếu có bất kỳ yêu cầu hoặc thắc mắc, vui lòng liên hệ Nhân viên Kinh doanh hoặc Phòng Dịch vụ Khách hàng của chúng tôi để được hỗ trợ nhanh nhất.</p>
 <p>Email: <a href = "mailto: contact@jobvieclam.com">contact@jobvieclam.com</a></p>
-<p>Điện thoại: (848) 3822 6060</p>
+<p>Điện thoại: 028 71000 555</p>
 
 <di class="footer">
     <span>Trân trọng,</span>
@@ -152,7 +152,7 @@ này "Không phải thư quảng cáo / spam"
       <span>Email: </span> <a href="mailto:support@jobvieclam.com">Support@jobvieclam.com</a>
     </div>
     <div>
-      <span>Điện thoại: </span> <a href="tel:+(848) 3822 6060">(848) 3822 6060</a>
+      <span>Điện thoại: </span> <a href="tel:+028 71000 555">028 71000 555</a>
     </div>
 </div>
 <div class="footer">

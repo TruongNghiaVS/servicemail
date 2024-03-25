@@ -94,7 +94,7 @@
       <span>Email: </span> <a href="mailto:support@jobvieclam.com">Support@jobvieclam.com</a>
     </div>
     <div>
-      <span>Điện thoại: </span> <a href="tel:+(848) 3822 6060">(848) 3822 6060</a>
+      <span>Điện thoại: </span> <a href="tel:+028 71000 555">028 71000 555</a>
     </div>
     
 </div>
